@@ -1,0 +1,10 @@
+.target/
+*.class
+*.log
+*.war
+*.ear
+*.zip
+.settings/
+.project
+.classpath
+.metadata/
