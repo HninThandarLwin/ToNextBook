@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #fcf0f6;
+}
+.profile-header {
+    position: relative;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.cover-img {
+    width: 100%;
+    height: 300px;
+    object-fit:fill;
+    border-bottom: 3px solid rgb(248, 205, 230);
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid rgb(248, 205, 230);
+    object-fit: cover;
+}
+
+/*
+******* detail *******
+ */
+
+.profile-details {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.profile-details ul {
+    list-style: none;
+    padding: 0;
+}
+
+.profile-details li {
+    margin: 8px 0;
+}
